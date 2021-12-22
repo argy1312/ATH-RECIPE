@@ -8,7 +8,6 @@ description: A-TH
 tasks:
 
 
-# STANDALONE
-    - action: download_github
-      src: https://github.com/teerajat1/npcore-server-1/tree/main/server-data/resources
-
+ - action: download_file
+    path: ./tmp/files/ghmattimysql.zip
+    url: https://github.com/teerajat1/npcore-server-1/tree/main/server-data/resources
