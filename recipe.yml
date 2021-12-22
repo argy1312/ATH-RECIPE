@@ -1,0 +1,16 @@
+$onesync: on
+
+name: A-TH
+version: 1.0.0
+author: A-TH
+description: A-TH
+
+tasks:
+
+
+# STANDALONE
+    - action: download_github
+      src: https://github.com/teerajat1/npcore-server-1/tree/main/server-data/resources
+      subpath: resources
+      dest: npcore-server-1/server-data/resources/
+
